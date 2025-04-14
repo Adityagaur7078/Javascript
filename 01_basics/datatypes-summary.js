@@ -35,3 +35,29 @@ let myObj = {
  console.log(typeof heros);
 
  // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+ // ++++++++++++++++++++++++++++++++++++++++++++++++++
+ // ######### MEMORY
+ // Stack (Primitive), Heap (Non-Primitive)
+
+ let myYoutubename = "adityayoutuber"
+
+ let anothername = myYoutubename
+ anothername = "lucky"
+
+ console.log(anothername);
+ console.log(myYoutubename);
+
+ let userOne = {
+    email: "userjs@gmail.com",
+    upi: "user@ybl"
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "me@gmail.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
