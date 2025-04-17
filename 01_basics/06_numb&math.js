@@ -24,7 +24,7 @@ const hundreds = 1000000
 // console.log(Math.min(1, 7, 8, 9));
 // console.log(Math.max(1, 7, 8, 9));
 
-console.log((Math.random());
+console.log((Math.random()));
 console.log((Math.random()*10) + 1);
 console.log(Math.floor(Math.random()*10) + 1);
 
