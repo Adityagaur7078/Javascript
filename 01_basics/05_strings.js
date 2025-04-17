@@ -19,5 +19,15 @@ console.log(gameName.indexOf('t'));
 const newString = gameName.substring(0, 4)
 console.log(newString);
 
-const anotherString = gameName.slice(-10, 4)
+const anotherString = gameName.slice(-7, -4)
 console.log(anotherString);
+
+const newStringOne = "     Aditya     "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://aditya.com/aditya%100gaur"
+
+console.log(url.replace('%100', '-'))
+
+console.log(url.includes('aditya'))
